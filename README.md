@@ -16,17 +16,17 @@ I left 2 parts untangled:
 
 
 # What the example brings you
-1) car
+1) car-->
 Scenekit is very strong!
 a) assemble a car 
 b) forward
 c) backward
 d) brake
 
-2) ballSocket joint
+2) ballSocket joint-->
 to keep every wagon of a train connected all the time 
 
-3) static & dynamic
+3) static & dynamic-->
 here are some details:
 let floor = SCNNode(geometry: SCNFloor())
 scene.rootNode.addChildNode(floor)
