@@ -8,26 +8,89 @@
 
 /* Begin PBXBuildFile section */
 		332436DA206A022000BDF74C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332436D9206A022000BDF74C /* AppDelegate.swift */; };
-		332436DC206A022000BDF74C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 332436DB206A022000BDF74C /* GameScene.sks */; };
-		332436DE206A022000BDF74C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 332436DD206A022000BDF74C /* Actions.sks */; };
-		332436E0206A022000BDF74C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332436DF206A022000BDF74C /* GameScene.swift */; };
 		332436E2206A022000BDF74C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332436E1206A022000BDF74C /* GameViewController.swift */; };
 		332436E5206A022000BDF74C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 332436E3206A022000BDF74C /* Main.storyboard */; };
 		332436E7206A022000BDF74C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 332436E6206A022000BDF74C /* Assets.xcassets */; };
 		332436EA206A022000BDF74C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 332436E8206A022000BDF74C /* LaunchScreen.storyboard */; };
+		332436F6206A068E00BDF74C /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332436F5206A068E00BDF74C /* GameView.swift */; };
+		332436F8206A06A900BDF74C /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332436F7206A06A900BDF74C /* Overlay.swift */; };
+		33243721206B364100BDF74C /* video_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33243701206B363E00BDF74C /* video_camera@2x.png */; };
+		33243722206B364100BDF74C /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 33243702206B363E00BDF74C /* launch.png */; };
+		33243723206B364100BDF74C /* train_flat.dae in Resources */ = {isa = PBXBuildFile; fileRef = 33243703206B363E00BDF74C /* train_flat.dae */; };
+		33243724206B364100BDF74C /* reactor.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 33243704206B363F00BDF74C /* reactor.scnp */; };
+		33243725206B364100BDF74C /* carpetOld.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33243705206B363F00BDF74C /* carpetOld.jpg */; };
+		33243726206B364100BDF74C /* tex_smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 33243706206B363F00BDF74C /* tex_smoke.png */; };
+		33243727206B364100BDF74C /* wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 33243707206B363F00BDF74C /* wheel.png */; };
+		33243728206B364100BDF74C /* carpet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33243708206B363F00BDF74C /* carpet.jpg */; };
+		33243729206B364100BDF74C /* book_side_title.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33243709206B363F00BDF74C /* book_side_title.jpg */; };
+		3324372A206B364100BDF74C /* click.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3324370A206B363F00BDF74C /* click.caf */; };
+		3324372B206B364100BDF74C /* book_back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3324370B206B363F00BDF74C /* book_back.jpg */; };
+		3324372C206B364100BDF74C /* needle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3324370C206B363F00BDF74C /* needle.png */; };
+		3324372D206B364100BDF74C /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 3324370D206B363F00BDF74C /* smoke.png */; };
+		3324372E206B364100BDF74C /* wall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3324370E206B363F00BDF74C /* wall.jpg */; };
+		3324372F206B364100BDF74C /* book_front.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3324370F206B363F00BDF74C /* book_front.jpg */; };
+		33243730206B364100BDF74C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 33243710206B363F00BDF74C /* icon.png */; };
+		33243731206B364100BDF74C /* speedGauge.png in Resources */ = {isa = PBXBuildFile; fileRef = 33243711206B363F00BDF74C /* speedGauge.png */; };
+		33243732206B364100BDF74C /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 33243712206B364000BDF74C /* spark.png */; };
+		33243733206B364100BDF74C /* WoodCubeB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33243713206B364000BDF74C /* WoodCubeB.jpg */; };
+		33243735206B364100BDF74C /* ball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33243715206B364000BDF74C /* ball.jpg */; };
+		33243736206B364100BDF74C /* video_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 33243716206B364000BDF74C /* video_camera.png */; };
+		33243737206B364100BDF74C /* train_wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33243717206B364000BDF74C /* train_wood.jpg */; };
+		33243738206B364100BDF74C /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 33243718206B364000BDF74C /* wood.png */; };
+		33243739206B364100BDF74C /* krStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 33243719206B364000BDF74C /* krStar.png */; };
+		3324373A206B364100BDF74C /* tire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3324371A206B364000BDF74C /* tire.jpg */; };
+		3324373B206B364100BDF74C /* book_side.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3324371B206B364000BDF74C /* book_side.jpg */; };
+		3324373C206B364100BDF74C /* WoodCubeA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3324371C206B364000BDF74C /* WoodCubeA.jpg */; };
+		3324373D206B364100BDF74C /* starBurst.skn in Resources */ = {isa = PBXBuildFile; fileRef = 3324371D206B364000BDF74C /* starBurst.skn */; };
+		3324373E206B364100BDF74C /* WoodCubeC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3324371E206B364100BDF74C /* WoodCubeC.jpg */; };
+		3324373F206B364100BDF74C /* smoke.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 3324371F206B364100BDF74C /* smoke.scnp */; };
+		33243740206B364100BDF74C /* rc_car_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = 33243720206B364100BDF74C /* rc_car_texture.png */; };
+		3326B9E6206BA8350021904A /* rc_car.scn in Resources */ = {isa = PBXBuildFile; fileRef = 3326B9E5206BA8350021904A /* rc_car.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		332436D6206A022000BDF74C /* stScnVehicle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stScnVehicle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		332436D9206A022000BDF74C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		332436DB206A022000BDF74C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		332436DD206A022000BDF74C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		332436DF206A022000BDF74C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		332436E1206A022000BDF74C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		332436E4206A022000BDF74C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		332436E6206A022000BDF74C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		332436E9206A022000BDF74C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		332436EB206A022000BDF74C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		332436F5206A068E00BDF74C /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		332436F7206A06A900BDF74C /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
+		33243701206B363E00BDF74C /* video_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_camera@2x.png"; sourceTree = "<group>"; };
+		33243702206B363E00BDF74C /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		33243703206B363E00BDF74C /* train_flat.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = train_flat.dae; sourceTree = "<group>"; };
+		33243704206B363F00BDF74C /* reactor.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = reactor.scnp; sourceTree = "<group>"; };
+		33243705206B363F00BDF74C /* carpetOld.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carpetOld.jpg; sourceTree = "<group>"; };
+		33243706206B363F00BDF74C /* tex_smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tex_smoke.png; sourceTree = "<group>"; };
+		33243707206B363F00BDF74C /* wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheel.png; sourceTree = "<group>"; };
+		33243708206B363F00BDF74C /* carpet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carpet.jpg; sourceTree = "<group>"; };
+		33243709206B363F00BDF74C /* book_side_title.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book_side_title.jpg; sourceTree = "<group>"; };
+		3324370A206B363F00BDF74C /* click.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.caf; sourceTree = "<group>"; };
+		3324370B206B363F00BDF74C /* book_back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book_back.jpg; sourceTree = "<group>"; };
+		3324370C206B363F00BDF74C /* needle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = needle.png; sourceTree = "<group>"; };
+		3324370D206B363F00BDF74C /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
+		3324370E206B363F00BDF74C /* wall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall.jpg; sourceTree = "<group>"; };
+		3324370F206B363F00BDF74C /* book_front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book_front.jpg; sourceTree = "<group>"; };
+		33243710206B363F00BDF74C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		33243711206B363F00BDF74C /* speedGauge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speedGauge.png; sourceTree = "<group>"; };
+		33243712206B364000BDF74C /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		33243713206B364000BDF74C /* WoodCubeB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WoodCubeB.jpg; sourceTree = "<group>"; };
+		33243715206B364000BDF74C /* ball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ball.jpg; sourceTree = "<group>"; };
+		33243716206B364000BDF74C /* video_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_camera.png; sourceTree = "<group>"; };
+		33243717206B364000BDF74C /* train_wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = train_wood.jpg; sourceTree = "<group>"; };
+		33243718206B364000BDF74C /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood.png; sourceTree = "<group>"; };
+		33243719206B364000BDF74C /* krStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = krStar.png; sourceTree = "<group>"; };
+		3324371A206B364000BDF74C /* tire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tire.jpg; sourceTree = "<group>"; };
+		3324371B206B364000BDF74C /* book_side.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book_side.jpg; sourceTree = "<group>"; };
+		3324371C206B364000BDF74C /* WoodCubeA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WoodCubeA.jpg; sourceTree = "<group>"; };
+		3324371D206B364000BDF74C /* starBurst.skn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = starBurst.skn; sourceTree = "<group>"; };
+		3324371E206B364100BDF74C /* WoodCubeC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WoodCubeC.jpg; sourceTree = "<group>"; };
+		3324371F206B364100BDF74C /* smoke.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = smoke.scnp; sourceTree = "<group>"; };
+		33243720206B364100BDF74C /* rc_car_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rc_car_texture.png; sourceTree = "<group>"; };
+		3326B9E5206BA8350021904A /* rc_car.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = rc_car.scn; sourceTree = "<group>"; };
+		3326B9EB206CFD1F0021904A /* train_flat copy.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "train_flat copy.scn"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,16 +124,80 @@
 			isa = PBXGroup;
 			children = (
 				332436D9206A022000BDF74C /* AppDelegate.swift */,
-				332436DB206A022000BDF74C /* GameScene.sks */,
-				332436DD206A022000BDF74C /* Actions.sks */,
-				332436DF206A022000BDF74C /* GameScene.swift */,
-				332436E1206A022000BDF74C /* GameViewController.swift */,
-				332436E3206A022000BDF74C /* Main.storyboard */,
-				332436E6206A022000BDF74C /* Assets.xcassets */,
-				332436E8206A022000BDF74C /* LaunchScreen.storyboard */,
+				332436F4206A024600BDF74C /* Assets */,
+				332436F3206A024100BDF74C /* Controller */,
+				332436F2206A023E00BDF74C /* Model */,
+				332436F1206A023A00BDF74C /* View */,
 				332436EB206A022000BDF74C /* Info.plist */,
 			);
 			path = stScnVehicle;
+			sourceTree = "<group>";
+		};
+		332436F1206A023A00BDF74C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				332436E8206A022000BDF74C /* LaunchScreen.storyboard */,
+				332436E3206A022000BDF74C /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		332436F2206A023E00BDF74C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		332436F3206A024100BDF74C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				332436E1206A022000BDF74C /* GameViewController.swift */,
+				332436F5206A068E00BDF74C /* GameView.swift */,
+				332436F7206A06A900BDF74C /* Overlay.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		332436F4206A024600BDF74C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3326B9EB206CFD1F0021904A /* train_flat copy.scn */,
+				33243715206B364000BDF74C /* ball.jpg */,
+				3324370B206B363F00BDF74C /* book_back.jpg */,
+				3324370F206B363F00BDF74C /* book_front.jpg */,
+				33243709206B363F00BDF74C /* book_side_title.jpg */,
+				3324371B206B364000BDF74C /* book_side.jpg */,
+				33243708206B363F00BDF74C /* carpet.jpg */,
+				33243705206B363F00BDF74C /* carpetOld.jpg */,
+				3324370A206B363F00BDF74C /* click.caf */,
+				33243710206B363F00BDF74C /* icon.png */,
+				33243719206B364000BDF74C /* krStar.png */,
+				33243702206B363E00BDF74C /* launch.png */,
+				3324370C206B363F00BDF74C /* needle.png */,
+				3326B9E5206BA8350021904A /* rc_car.scn */,
+				33243720206B364100BDF74C /* rc_car_texture.png */,
+				33243704206B363F00BDF74C /* reactor.scnp */,
+				3324370D206B363F00BDF74C /* smoke.png */,
+				3324371F206B364100BDF74C /* smoke.scnp */,
+				33243712206B364000BDF74C /* spark.png */,
+				33243711206B363F00BDF74C /* speedGauge.png */,
+				3324371D206B364000BDF74C /* starBurst.skn */,
+				33243706206B363F00BDF74C /* tex_smoke.png */,
+				3324371A206B364000BDF74C /* tire.jpg */,
+				33243703206B363E00BDF74C /* train_flat.dae */,
+				33243717206B364000BDF74C /* train_wood.jpg */,
+				33243716206B364000BDF74C /* video_camera.png */,
+				33243701206B363E00BDF74C /* video_camera@2x.png */,
+				3324370E206B363F00BDF74C /* wall.jpg */,
+				33243707206B363F00BDF74C /* wheel.png */,
+				33243718206B364000BDF74C /* wood.png */,
+				3324371C206B364000BDF74C /* WoodCubeA.jpg */,
+				33243713206B364000BDF74C /* WoodCubeB.jpg */,
+				3324371E206B364100BDF74C /* WoodCubeC.jpg */,
+				332436E6206A022000BDF74C /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +232,7 @@
 				TargetAttributes = {
 					332436D5206A022000BDF74C = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,11 +260,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33243728206B364100BDF74C /* carpet.jpg in Resources */,
+				3324373A206B364100BDF74C /* tire.jpg in Resources */,
+				33243722206B364100BDF74C /* launch.png in Resources */,
+				3324373E206B364100BDF74C /* WoodCubeC.jpg in Resources */,
+				33243723206B364100BDF74C /* train_flat.dae in Resources */,
 				332436E5206A022000BDF74C /* Main.storyboard in Resources */,
-				332436DC206A022000BDF74C /* GameScene.sks in Resources */,
+				33243737206B364100BDF74C /* train_wood.jpg in Resources */,
+				33243726206B364100BDF74C /* tex_smoke.png in Resources */,
+				3324372A206B364100BDF74C /* click.caf in Resources */,
+				3324373B206B364100BDF74C /* book_side.jpg in Resources */,
 				332436E7206A022000BDF74C /* Assets.xcassets in Resources */,
+				33243736206B364100BDF74C /* video_camera.png in Resources */,
+				3324373F206B364100BDF74C /* smoke.scnp in Resources */,
 				332436EA206A022000BDF74C /* LaunchScreen.storyboard in Resources */,
-				332436DE206A022000BDF74C /* Actions.sks in Resources */,
+				33243729206B364100BDF74C /* book_side_title.jpg in Resources */,
+				3324372C206B364100BDF74C /* needle.png in Resources */,
+				33243732206B364100BDF74C /* spark.png in Resources */,
+				3324373D206B364100BDF74C /* starBurst.skn in Resources */,
+				3324372D206B364100BDF74C /* smoke.png in Resources */,
+				33243724206B364100BDF74C /* reactor.scnp in Resources */,
+				33243739206B364100BDF74C /* krStar.png in Resources */,
+				33243733206B364100BDF74C /* WoodCubeB.jpg in Resources */,
+				3324373C206B364100BDF74C /* WoodCubeA.jpg in Resources */,
+				33243735206B364100BDF74C /* ball.jpg in Resources */,
+				3324372F206B364100BDF74C /* book_front.jpg in Resources */,
+				33243738206B364100BDF74C /* wood.png in Resources */,
+				3324372E206B364100BDF74C /* wall.jpg in Resources */,
+				33243731206B364100BDF74C /* speedGauge.png in Resources */,
+				3324372B206B364100BDF74C /* book_back.jpg in Resources */,
+				3326B9E6206BA8350021904A /* rc_car.scn in Resources */,
+				33243730206B364100BDF74C /* icon.png in Resources */,
+				33243725206B364100BDF74C /* carpetOld.jpg in Resources */,
+				33243721206B364100BDF74C /* video_camera@2x.png in Resources */,
+				33243727206B364100BDF74C /* wheel.png in Resources */,
+				33243740206B364100BDF74C /* rc_car_texture.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,8 +305,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				332436E0206A022000BDF74C /* GameScene.swift in Sources */,
 				332436E2206A022000BDF74C /* GameViewController.swift in Sources */,
+				332436F6206A068E00BDF74C /* GameView.swift in Sources */,
+				332436F8206A06A900BDF74C /* Overlay.swift in Sources */,
 				332436DA206A022000BDF74C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,12 +445,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LMJBYFW6C8;
 				INFOPLIST_FILE = stScnVehicle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sj.stScnVehicle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,9 +464,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LMJBYFW6C8;
 				INFOPLIST_FILE = stScnVehicle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sj.stScnVehicle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
