@@ -9,7 +9,7 @@ I added a button to introduce how to interacte
 # You will learn
 ## car
 ### assemble a car 
-b) forward
+b) forward \n
 c) backward
 d) brake
 3) control direction: CoreMotion
