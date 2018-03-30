@@ -7,16 +7,17 @@ I added a button to introduce how to interacte
 
 
 # You will learn
-## car-->
-a) assemble a car 
+## car
+### assemble a car 
 b) forward
 c) backward
 d) brake
+3) control direction: CoreMotion
 
-2) ballSocket joint-->
+## ballSocket joint
 to keep every wagon of a train connected all the time 
 
-3) static & dynamic-->
+## static & dynamic
 here are some details:
 let floor = SCNNode(geometry: SCNFloor())
 scene.rootNode.addChildNode(floor)
@@ -31,7 +32,7 @@ floor.physicsBody = SCNPhysicsBody.static()
 
 # Undone works
 I left 2 parts untangled:
-1) how to control car direction
+1) how to control car direction: CoreMotion to 
 2) keep car not upside
 
 3) I want to add a control pad like in "Terminator", cos 2 fingers are not always recognized
