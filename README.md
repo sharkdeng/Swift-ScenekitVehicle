@@ -8,17 +8,17 @@ I added a button to introduce how to interacte
 
 # You will learn
 ## car
-### assemble a car 
-b) forward \n
-c) backward
-d) brake
-3) control direction: CoreMotion
+a) assemble a car <br>
+b) forward <br>
+c) backward<br>
+d) brake<br>
+3) control direction: CoreMotion<br>
 
 ## ballSocket joint
 to keep every wagon of a train connected all the time 
 
 ## static & dynamic
-here are some details:
+here are some details:<br>
 let floor = SCNNode(geometry: SCNFloor())
 scene.rootNode.addChildNode(floor)
 
