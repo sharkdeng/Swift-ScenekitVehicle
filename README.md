@@ -2,7 +2,7 @@
 
 # Important
 This is an Apple official example.<br>
-I translated from objective-oc to swift by 3 days.<br>
+I translated from objective-c to swift by 3 days.<br>
 I added a button to introduce how to interacte<br>
 1) 2 taps with 2 fingers to reset <br>
 2) 1 fingers to foward<br>
