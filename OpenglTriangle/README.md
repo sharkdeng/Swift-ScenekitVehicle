@@ -1,4 +1,6 @@
 
+This project is from a repository in github. As my learning material, my work is rewriting it and making some notes.
+If you have any problem, you can email me limindeng92@126.com
 
 some details:
 1) index type must be GLuint, Int will orrcur error.
